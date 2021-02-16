@@ -15,7 +15,9 @@ It is very simple to create API using fast rest. You just need controller class.
 So FastREST is much easier to execute/deploy than other php frameworks. You can even use the basic PHP server to use FastREST to its full executing following command in FastRest dir.
 
     $ php -S localhost:8000 index.php
+
 Now you can start working with controllers and actions for further development.
+
 ### Controller
 
 You need to create a controller class in controllers dir with filename as `nameController.php` for example you want to create controller class for handling APIs related to products then you would need to create ProductController class with filename ProductController.php in controllers dir. The controller name like Product for the above example will act as the route `/product/[actionname]`. The namespace for  controller needs to be src\controllers for router to auto create route for it. 
